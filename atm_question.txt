@@ -1,0 +1,29 @@
+Steven want to withdraw cash from an Automated Teller Machine (ATM). The machine only have RM 20, RM 50 and RM 100 notes. 
+The ATM will reject transaction if it can not return the exact amount that he request. For each successful transaction, 
+the bank charges RM 1.
+
+Calculate his account balance after an attempted transaction.
+
+Input
+
+Input contains 2 integers B, W (1 ≤ B, W ≤ 1000) are the initial balance and the amount that he wants to withdraw.
+
+Output
+
+A single integer which is the the account balance after the attempted transaction. If the transaction is failed, output the current bank balance.
+
+Sample Input 1
+
+200 170
+
+Sample Output 1
+
+29
+
+Sample Input 2
+
+200 131
+
+Sample Output 2
+
+200
